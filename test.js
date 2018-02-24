@@ -4,8 +4,8 @@ const getZerosCount = require('./src/index');
 
 describe('Zeros', () => {
   it('1', () => {
-    const zerosCount = getZerosCount(84583674);
-    assert.equal(zerosCount, 21145911);
+    const zerosCount = getZerosCount(10);
+    assert.equal(zerosCount, 2);
   });
 
   it('2', () => {
